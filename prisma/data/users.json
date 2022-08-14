@@ -1,0 +1,22 @@
+[
+    {
+        "age": 30,
+        "name": "Boris Bošković",
+        "email": "boris.boskovic92@gmail.com"
+    },
+    {
+        "age": 25,
+        "name": "Milica Milošević",
+        "email": "milicamilosevicll97@gmail.com"
+    },
+    {
+        "age": 25,
+        "name": "Slavica Milošević",
+        "email": "slavicailosevicll97@gmail.com"
+    },
+    {
+        "age": 3,
+        "name": "Jubo Jubašin",
+        "email": "jusi@gmail.com"
+    }
+]

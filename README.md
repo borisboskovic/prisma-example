@@ -105,3 +105,20 @@ npx prisma studio
 ```
 
 ---
+
+## Seeding database
+
+Command used to seed database is
+
+```
+npx prisma db seed
+```
+
+To be able to use this command it is necessary to add `seed` command to `prisma` section of `package.json` file.
+Seed command can be any command used to actually seed the database. For example, you can run the file where you are using prisma client to insert values into the database.
+
+```json
+"prisma": {
+    "seed": "ts-node ./prisma/seed.ts"
+}
+```
