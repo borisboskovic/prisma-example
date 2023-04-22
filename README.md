@@ -2,8 +2,8 @@
 
 ## Table of content
 
--   [initialization](#prisma-initialization)
--   [synchronization](#database-synchronization)
+-   [Initialization](#prisma-initialization)
+-   [Synchronization](#database-synchronization)
 -   [Migrations and client generation](#migrations-and-client-generation)
 -   [Formatting schema file](#formatting-schema-file-can-use-prisma-vscode-extension-for-this)
 -   [Prisma studio](#using-prisma-studio)
