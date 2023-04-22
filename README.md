@@ -1,5 +1,15 @@
 # Prisma
 
+## Table of content
+
+-   [initialization](#prisma-initialization)
+-   [synchronization](#database-synchronization)
+-   [Migrations and client generation](#migrations-and-client-generation)
+-   [Formatting schema file](#formatting-schema-file-can-use-prisma-vscode-extension-for-this)
+-   [Prisma studio](#using-prisma-studio)
+-   [Seeding database](#seeding-database)
+-   [Logging levels](#logging-levels)
+
 ## Prisma Initialization
 
 ```
@@ -122,3 +132,22 @@ Seed command can be any command used to actually seed the database. For example,
     "seed": "ts-node ./prisma/seed.ts"
 }
 ```
+
+## Logging levels
+
+When creating **Prisma** client you can configure different logging levels
+
+-   `error`
+-   `info`
+-   `query`
+-   `warn`
+
+For example:
+
+```ts
+const prisma = new PrismaClient({
+    log: ["query"],
+});
+```
+
+---
